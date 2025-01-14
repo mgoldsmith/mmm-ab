@@ -44,14 +44,14 @@ a {
   color: inherit;
 }
 
-body {
+/* body {
   background: #000000;
   display: grid;
   justify-items: center;
   grid-template-rows: 2fr 4fr;
-}
+} */
 
-#intro {
+/* #intro {
   max-width: 90vw;
   margin-bottom: 3rem;
   align-content: center;
@@ -62,9 +62,9 @@ body {
   color: #393939;
 
   font-size: 1.2em;
-}
+} */
 
-#intro h1 {
+/* #intro h1 {
   font-size: 1.4em;
   font-weight: 700;
 }
@@ -89,7 +89,7 @@ body {
 
 #intro a:hover {
   opacity: 0.8;
-}
+} */
 
 .players {
   display: inline-grid;
