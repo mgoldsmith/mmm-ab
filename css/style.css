@@ -1,12 +1,12 @@
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 * {
   margin: 0;
-}
-html,
+} */
+/* html,
 body {
  height: 100%;
 }
@@ -14,15 +14,15 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: 'Lato', sans-serif;
-}
-img,
+} */
+/* img,
 picture,
 video,
 canvas,
 svg {
   display: block;
   max-width: 100%;
-}
+} */
 input,
 button,
 textarea,
