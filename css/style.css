@@ -101,7 +101,7 @@ body {
 
 .player__wrapper {
   border-radius: 50px;
-  background: #e6e6e6;
+  background: #000000;
   padding: 4vh 5.5vw 4.5vh 5.5vw;
   max-width: 500px;
   align-self: start;
@@ -127,7 +127,7 @@ button {
   padding: 0.75rem;
   border-radius: 12px;
   background: #e6e6e6;
-  box-shadow: 7px 7px 15px #cdcdcd, -7px -7px 15px #ffffff;
+  /* box-shadow: 7px 7px 15px #cdcdcd, -7px -7px 15px #ffffff; */
   cursor: pointer;
   transition: all ease-in-out 0.3s;
 }
