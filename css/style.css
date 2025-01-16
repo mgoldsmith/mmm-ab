@@ -204,22 +204,24 @@ button:hover {
   width: 0%;
 }
 
-/* @media screen (min-width: 768px) {
-  body {
+
+@media screen and (min-width: 768px) {
+  /* body {
     grid-template-rows: 1fr 1fr;
-  }
+  } */
 
   #intro {
     margin-bottom: 0;
   }
 
-  .players {
+  /* .players {
     grid-template-columns: 1fr 1fr;
-  }
+  } */
 }
 
 @media screen and (max-width: 768px) {
-  .players {
+  /* .players {
     grid-template-columns: 1fr;
-  }
-} */
+
+  } */
+}
