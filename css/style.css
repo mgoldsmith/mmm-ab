@@ -23,7 +23,7 @@ svg {
   display: block;
   max-width: 100%;
 } */
-/* input,
+input,
 button,
 textarea,
 select {
@@ -42,7 +42,7 @@ h6 {
 a {
   text-decoration: none;
   color: inherit;
-} */
+}
 
 /* body {
   background: #000000;
@@ -204,7 +204,7 @@ button:hover {
   width: 0%;
 }
 
-/* @media screen (min-width: 768px) {
+@media screen (min-width: 768px) {
   body {
     grid-template-rows: 1fr 1fr;
   }
@@ -222,4 +222,4 @@ button:hover {
   .players {
     grid-template-columns: 1fr;
   }
-} */
+}
