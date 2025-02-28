@@ -102,7 +102,7 @@ a {
 .player__wrapper {
   border-radius: 50px;
   background: #000000;
-  padding: 4vh 5.5vw 4.5vh 5.5vw;
+  /* padding: 4vh 5.5vw 4.5vh 5.5vw; */
   max-width: 500px;
   align-self: start;
   margin: 20px 2vw;
