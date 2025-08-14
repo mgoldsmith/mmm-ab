@@ -100,14 +100,12 @@ a {
 }
 
 .player__wrapper {
-  border-radius: 16px;
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  padding: 24px 32px;
+  border-radius: 50px;
+  background: #000000;
+  /* padding: 4vh 5.5vw 4.5vh 5.5vw; */
   max-width: 500px;
   align-self: start;
-  margin: 20px auto;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 20px 2vw;
 }
 
 .ab__controls {
@@ -121,48 +119,42 @@ a {
 }
 
 button {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.3rem;
   text-transform: uppercase;
-  border: 1px solid #dee2e6;
-  color: #495057;
+  border: none;
+  color: #9b9b9b;
   width: 5rem;
   padding: 0.75rem;
-  border-radius: 8px;
-  background: #ffffff;
+  border-radius: 12px;
+  background: #e6e6e6;
   cursor: pointer;
-  transition: all ease-in-out 0.2s;
-  font-family: inherit;
+  transition: all ease-in-out 0.3s;
 }
 
 button:disabled {
-  background: #007bff;
-  color: #ffffff;
-  border-color: #007bff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(0,123,255,0.3);
+  color: #c9c9c9;
+  box-shadow: inset 7px 7px 15px #cdcdcd, inset -7px -7px 15px #ffffff;
+  transition: all ease-in-out 0.3s;
+}
+button:disabled:hover {
+  color: #c9c9c9;
+  box-shadow: inset 5px 5px 15px #cdcdcd, inset -5px -5px 15px #ffffff;
 }
 
-button:hover:not(:disabled) {
-  background: #f8f9fa;
-  border-color: #007bff;
-  color: #007bff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+button:hover {
+  box-shadow: 4px 4px 15px #cdcdcd, -4px -4px 15px #ffffff;
 }
 
 .a__button {
   width: 8rem;
-  border-radius: 8px 0 0 8px;
+  border-radius: 12px 0 0 12px;
   justify-self: self-end;
-  border-right: none;
 }
 
 .b__button {
   width: 8rem;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 12px 12px 0;
   justify-self: self-start;
-  border-left: none;
 }
 
 .play__button {
@@ -171,20 +163,12 @@ button:hover:not(:disabled) {
 
 .stop__button {
   width: 5rem;
-  color: #dc3545;
-  border-color: #dc3545;
+  color: #966f6f;
   justify-self: self-start;
 }
 
-.stop__button:hover:not(:disabled) {
-  background: #dc3545;
-  color: #ffffff;
-}
-
 .stop__button:disabled {
-  background: #dc3545;
-  color: #ffffff;
-  border-color: #dc3545;
+  color: #966f6fd3;
 }
 
 .play__stop__controls {
@@ -197,22 +181,23 @@ button:hover:not(:disabled) {
 
 .progress__container {
   display: inline-flex;
-  background: #e9ecef;
-  height: 0.5rem;
+  background: #a8a8a8;
+  height: 1rem;
   width: 100%;
-  margin-bottom: 1.5rem;
-  border-radius: 4px;
+  margin-bottom: 2.4rem;
+  border-radius: 10px;
+  border-radius: 12px;
+  background: #e6e6e6;
+  box-shadow: inset 7px 7px 15px #cdcdcd, inset -7px -7px 15px #ffffff;
   cursor: pointer;
   align-self: center;
   overflow: hidden;
-  border: 1px solid #dee2e6;
 }
 
 .progress__bar {
-  background: #007bff;
-  border-radius: 4px;
+  background: linear-gradient(360deg, #2da87b, #34dcacfa);
+  border-radius: 12px;
   transition: all ease-in-out 0.03s;
-  height: 100%;
 }
 
 .progress__fill {
